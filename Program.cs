@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using NUnit.Framework;
+
+namespace Mob
+{
+    public class Tests
+    {
+        [Test]
+        public void should()
+        {
+            Assert.IsTrue(true);
+        }
+    }
+}
+
